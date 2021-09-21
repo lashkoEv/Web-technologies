@@ -1,0 +1,133 @@
+.navbar-bg {
+    background: linear-gradient(#43aea0, #a6cb82);
+    /*background-color: #34a79d;*/
+    border-color: #34a79d;
+    -webkit-box-shadow: 0 0 20px 20px #bbbcbc; /* WebKit */
+    -moz-box-shadow: 0 0 20px 20px #bbbcbc; /* Firefox */
+    box-shadow: 0px 0 20px 10px #bbbcbc; /* Standard */
+    margin-bottom: 70px;
+}
+
+body {
+    /*background: linear-gradient(#f4ffff, #f4ffff);*/
+    background-image: url("../img/pattern (2).png");
+}
+
+.navbar-brand {
+    margin-right: 180px;
+    font-family: Papyrus, fantasy;
+}
+
+div > a.navbar-brand {
+    font-size: 25px;
+}
+
+footer {
+    /*background: linear-gradient(#34a79d, #105a54);*/
+    background-color: #43aea0;
+    -webkit-box-shadow: 0 0 20px 20px #90cf56; /* WebKit */
+    -moz-box-shadow: 0 0 20px 20px #90cf56; /* Firefox */
+    box-shadow: 0 0 0 10px #a6cb82; /* Standard */
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+a.btn-primary {
+    background-color: #57CC99;
+    border-color: #57CC99;
+}
+
+a.btn-primary:hover {
+    background-color: #80ED99;
+    border-color: #80ED99;
+}
+
+a.btn-primary:focus {
+    background-color: #38A3A5;
+    border-color: #38A3A5;
+}
+
+a.nav-link.active {
+    background-color: #57CC99;
+}
+
+a.nav-link:hover {
+    background-color: #80ED99;
+    color: #22577A;
+}
+
+div.card-footer {
+    background: #C7F9CC;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-gallery {
+    position: relative;
+}
+
+.gallery-image {
+    width: 100%;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+}
+
+.left-btn,
+.right-btn {
+    position: absolute;
+    top: 40%;
+    padding: 16px;
+    margin-top: -50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right-btn {
+    margin-left: 95.6%;
+    border-radius: 3px 0 0 3px;
+}
+
+.position {
+    color: white;
+    background-color: #43aea0;
+    font-size: 14px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.row-gallery:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+    padding: 0.33%;
+}
+
+.icon {
+    opacity: 0.6;
+}
+
+.active,
+.icon:hover {
+    opacity: 1;
+}
+
+hr {
+    border: 2px;
+    background: #0a6e5f;
+    background-image: -webkit-linear-gradient(left, #fff, #0a6e5f, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #0a6e5f, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #0a6e5f, #fff);
+    background-image: -o-linear-gradient(left, #fff, #0a6e5f, #fff);
+}
